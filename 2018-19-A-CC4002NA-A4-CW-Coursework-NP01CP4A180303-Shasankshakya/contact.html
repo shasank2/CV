@@ -1,0 +1,51 @@
+<html>
+
+    <head>
+	<meta charset="utf-8">
+    <title> Shasank |Contact </title>
+	<link rel="stylesheet" href="contact.css">
+    </head>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Shasank</h1>
+      </div>
+      <nav>
+        <h3>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+			<li><a href="blog.html">Blog</a></li>
+          </ul>
+        </h3>
+      </nav>
+    </div>
+  </header>
+   <body>
+        <form name="messageForm" onsubmit="validateForm()">
+			<p>First name: <input type="text" name="firstname"></p>
+			<p>Last name: <input type="text" name="lastname"></p>
+			<p>Gender: <input type="radio" name="gender" value="male" checked> Male 
+			<input type="radio" name="gender" value="female"> Female </p>
+			<p>Message: <br><textarea name="message" rows="10" cols="40" placeholder="Enter Message"></textarea></p>
+			<p><input type="submit" value="Send"></p>
+		</form>
+		<script>
+			function validateForm() {
+				var fname = document.forms["messageForm"]["firstname"].value;
+				var lname = document.forms["messageForm"]["lastname"].value;
+				var gender = document.forms["messageForm"]["gender"].value;
+				var message = document.forms["messageForm"]["message"].value;
+
+				if (fname == "" || lname == "" || message == ""){
+					alert("Please fill all the fields");
+				}
+				else {
+					alert("Thank you for the feedback.");
+				}
+			}
+		</script>
+   </body>
+</html>

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+	<meta charset="utf-8">
+    <title> Shasank |Home page </title>
+	<link rel="stylesheet" href="home.css">
+    </head>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Shasank</h1>
+      </div>
+      <nav>
+        <h3>
+          <ul>
+            <li class="current"><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+			<li><a href="blog.html">Blog</a></li>
+          </ul>
+        </h3>
+      </nav>
+    </div>
+  </header>
+  <body>
+			<h1> Welcome to my Page </h1>
+		     
+			
+            <p id="paragraph">
+			    I am Shasank Shakya born in Kathmandu,Nepal. I received secondary
+				education from St.Xaviers Jawalakhel and studied A levels at 
+				Islington college. Currently I am continuing to do my Bachelors 
+				degree in Computing at Islington college.<br>
+				<br><br>
+                
+                Taking about my personality I am very calm and quiet mostly. I have 
+                my feeling reserved and only express it to few chosen people. Anyways 
+				I do like to show my sarcastic and funny side to people. Not only that,
+				but I am helping, kind and motivating to people in need.<br>
+				<br>
+				
+				In my future i would like to develop solutions of problems in various 
+				fields like medical, business, technology, etc.using computers. Besides,
+				I am intrested in travlling to new places and doing photography as a 
+				side hobby. Lastly I never leave apart movies, animes, games and their 
+				discussions.<br>
+				
+			
+				
+			</p>		
+		   </span>
+		  </div>
+		  
+		 
+	
+		 
+    </body>
+
+
+</html>

@@ -1,0 +1,87 @@
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+ header{
+  background:#35424a;
+  color:Gold;
+  padding-top:10px;
+  min-height:70px;
+  border-bottom:gold 1px solid;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+header a{
+  color:white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:20px;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:green;
+  font-weight:bold;
+}
+
+
+footer{
+  padding:2.5px;
+  margin-top:2.5px;
+  color:gold;
+  background-color:#35424a;
+  text-align: center;	
+}
+
+Body{
+	display:block;
+	border:3px red silver;
+	margin:0.5em;
+	padding:0.5em;
+	background-color:#e8b5b7;
+	text-align: center;
+}
+h1, p{
+	display: block;
+	font-family: Garamond;
+
+}
+
+h1{
+	display: block;
+	font-family: Courier;
+}
+
+p{
+		font-family: Bookman;
+	font-size: 16pt;
+}
+

@@ -1,0 +1,128 @@
+Vehicles {
+background-color: rgb(51, 153, 255);
+
+background-image: url(background.png);
+background-repeat: no-repeat;
+background-position: 0px 70px;
+}
+
+Shop_info {
+background-image: url(logo.png);
+background-repeat: no-repeat;
+float: left;
+}
+
+Shop_name {
+margin-left: 85px;
+margin-right: 230px;
+display: inline;
+font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 55px;
+}
+
+Address {
+margin-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: block;
+float:right;
+text-align: right;
+}
+Address:before {content: "| Address:"}
+
+Tel_no {
+margin-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: block;
+float:right;
+text-align: right;
+}
+Tel_no:before {content: "| Contact us:"}
+
+Website_address {
+margin-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: right;
+float:right;
+}
+Website_address:before {content: "Website:"}
+
+products {
+margin-top: 380px;
+display: block;
+font-family: monospace;
+font-size: 15px;
+}
+
+Vehicle {
+border: 5px solid #ffa64d;
+margin-top: 30px;
+display: block;
+}
+
+Brand {
+margin-left: 10px;
+margin-bottom: 10px;
+font-size: 23px;
+font-weight: bold;
+display: block;
+text-decoration: underline;
+}
+
+Manufacture_info {
+margin-left: 10px;
+margin-bottom: 10px;
+display: block;
+}
+Manufacturer_info:before {content: "Manufacturer Information";font-weight:bold;display:block;}
+
+Description {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Description:before {content: "Description";font-weight:bold;display:block;}
+
+Car_type {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Car_type:before {content: "Car Type: ";font-weight:bold;}
+
+Color {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Color:before {content: "Color: ";font-weight:bold;}
+Color:after {
+	content: "("attr(finishes)")";}
+
+Quantity {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Quantity:before {content: "Quantity: ";font-weight:bold;}
+
+Variant {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Variant:before {content: "Variant: ";font-weight:bold;}
+Variant:after {
+	content: attr(option);}
+
+Price {
+margin-left: 10px;
+margin-top: 10px;
+display: block;
+}
+Price:before {content: "Price: ";font-weight:bold;}
+Price:after {
+	content: "("attr(payment_method)")";}
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Vehicles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="shop_info">
+				  <xs:complexType>
+					<xs:sequence>
+					  <xs:element name="Shop_name" type="xs:string"/>
+					  <xs:element name="Address">
+						<xs:complexType>
+						  <xs:sequence>
+							<xs:element name="City" type="xs:string"/>
+							<xs:element name="Street" type="xs:string"/>
+						  </xs:sequence>
+						</xs:complexType>
+					  </xs:element>
+					  <xs:element name="Tel_no" type="xs:positiveInteger"/>
+					  <xs:element name="Website_address" type="xs:string"/>
+					</xs:sequence>
+				  <xs:complexType>
+				</xs:element>
+				<xs:element name="products">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Vehicle" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Brand">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Brand_name" type="xs:string"/>
+													<xs:element name="Model" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Manufacturer_info" type="xs:string"/>
+										<xs:element name="Description" type="xs:string"/>
+										<xs:element name="Car_type">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="hatchback"/>
+													<xs:enumeration value="SUV"/>
+													<xs:enumeration value="sedan"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Color">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="finishes" use="optional">
+															<xs:simpleType>
+																<xs:restriction base="xs:string">
+																	<xs:enumeration value="Matte" />
+																	<xs:enumeration value="Glossy" />
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:attribute>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Quantity" type="xs:positiveInteger"/>
+										<xs:element name="Variant">
+											<xs:complexType>
+												<xs:attribute name="option">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="Full option" />
+															<xs:enumeration value="Half option" />
+															<xs:enumeration value="No option" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Price">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:double">
+														<xs:attribute name="payment_method">
+															<xs:simpleType>
+																<xs:restriction base="xs:string">
+																	<xs:enumeration value="cash" />
+																	<xs:enumeration value="credit card" />
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:attribute>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								<xs:attribute name="product_ID" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

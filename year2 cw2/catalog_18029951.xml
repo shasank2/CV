@@ -1,0 +1,287 @@
+<?xml-stylesheet version="1.0" type="text/css" href="catalog_18029951.css"?>
+<Vehicles>
+<Shop_info>
+	<Shop_name>Vector Motors</Shop_name>
+	<Address>
+		<City>Kathmandu</City>
+		<Street>Baluwatar</Street>
+	</Address>
+	<Tel_no>38848495</Tel_no>
+	<Website_address>vectormotors.com</Website_address>
+</Shop_info>
+	<products>
+		<Vehicle product_ID="6536">
+			<Brand>
+				<Brand_name>Suzuki</Brand_name>
+				<Model>Wagon R</Model>
+			</Brand>
+			<Manufacturer_info>
+			Suzuki Motor Corporation is a Japanese multinational corporation headquartered in Minami-ku, Hamamatsu.
+			Suzuki manufactures automobiles, four-wheel drive vehicles, motorcycles, all-terrain vehicles (ATVs),
+			outboard marine engines, wheelchairs and a variety of other small internal combustion engines.
+			</Manufacturer_info>
+			
+			<Description>
+			Suzuki Wagon R is one of the practical tall boy hatchback out there in the Indian as well 
+			as Nepalese market ever since it was first introduced back in 1999. 
+			</Description>
+			
+			<Car_type>hatchback</Car_type>
+			
+			<Color finishes="Matte">Black</Color>
+			
+			<Quantity>4</Quantity>
+			
+			<Variant option="Full option"/>
+			
+			<Price payment_method="cash">87000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="6531">
+			<Brand>
+				<Brand_name>Hyundai</Brand_name>
+				<Model>Kona</Model>
+			</Brand>
+			<Manufacturer_info>
+			The Hyundai Motor Company, commonly known as Hyundai Motors, is
+			a South Korean multinational automotive manufacturer headquartered in Seoul.
+			</Manufacturer_info>
+			
+			<Description>
+			The Kona isn't perfect, but in a segment full of compromises it offers a great 
+			combination of comfort, practicality, fun and technology, all wrapped up in a
+			package that feels firmly put together.
+			</Description>
+			
+			<Car_type>SUV</Car_type>
+			
+			<Color finishes="Matte">grey</Color>
+			
+			<Quantity>2</Quantity>
+			
+			<Variant option="No option"/>
+			
+			<Price payment_method="cash">107000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="2535">
+			<Brand>
+				<Brand_name>Mazda</Brand_name>
+				<Model>CX-5</Model>
+			</Brand>
+			<Manufacturer_info>
+			Mazda Motor Corporation, commonly referred to as simply Mazda, is a 
+			Japanese multinational automaker based in Fuchū, Aki District, Hiroshima 
+			Prefecture, Japan.
+			</Manufacturer_info>
+			
+			<Description>
+			The Mazda CX-5 has interior quality and driving dynamics that 
+			challenge some luxury vehicles. Cargo space behind the second
+			row isn't class-leading, but the Mazda's strengths still make
+			it a top pick.
+			</Description>
+			
+			<Car_type>SUV</Car_type>
+			
+			<Color finishes="Glossy">red</Color>
+			
+			<Quantity>4</Quantity>
+			
+			<Variant option="Half option"/>
+			
+			<Price payment_method="cash">131000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="9031">
+			<Brand>
+				<Brand_name>Hyundai</Brand_name>
+				<Model>Tucson</Model>
+			</Brand>
+			<Manufacturer_info>
+			The Hyundai Motor Company, commonly known as Hyundai Motors, is
+			a South Korean multinational automotive manufacturer headquartered in Seoul.
+			</Manufacturer_info>
+			
+			<Description>
+			With plentiful features at a reasonable price, an exceptional warranty and agreeable
+			interior, the Hyundai Tucson is a good family-focused choice, 
+			although fuel economy lags a bit for the class.
+			</Description>
+			
+			<Car_type>SUV</Car_type>
+			
+			<Color>grey</Color>
+			
+			<Quantity>5</Quantity>
+			
+			<Variant option="No option"/>
+			
+			<Price payment_method="cash">94000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="7581">
+			<Brand>
+				<Brand_name>Toyota</Brand_name>
+				<Model>Yaris</Model>
+			</Brand>
+			<Manufacturer_info>
+			Toyota Motor Corporation is a Japanese multinational automotive manufacturer 
+			headquartered in Toyota, Aichi, Japan.
+			</Manufacturer_info>
+			
+			<Description>
+			A Toyota in name only, the subcompact Yaris sedan is essentially a 
+			rebadged Mazda 2. That's a good thing, as Mazda has a reputation for building cars that are 
+			fun to drive. You'll like this Toyota's nimble handling, excellent fuel 
+			economy and wealth of standard features.
+			</Description>
+			
+			<Car_type>sedan</Car_type>
+			
+			<Color finishes="Glossy">grey</Color>
+			
+			<Quantity>4</Quantity>
+			
+			<Variant option="Full option"/>
+			
+			<Price payment_method="credit card">55000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="9475">
+			<Brand>
+				<Brand_name>Honda</Brand_name>
+				<Model>Civic</Model>
+			</Brand>
+			<Manufacturer_info>
+			Honda Motor Company, Ltd. is a Japanese public multinational conglomerate 
+			corporation primarily known as a manufacturer of automobiles, motorcycles, 
+			and power equipment.
+			</Manufacturer_info>
+			
+			<Description>
+			The Honda Civic is an outstanding small sedan, combining excellent performance with modern features, 
+			practicality and comfort. It also comes in a plethora of trim levels to suit various needs and budgets.
+			</Description>
+			
+			<Car_type>sedan</Car_type>
+			
+			<Color>black</Color>
+			
+			<Quantity>8</Quantity>
+			
+			<Variant option="No option"/>
+			
+			<Price payment_method="credit card">73000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="1331">
+			<Brand>
+				<Brand_name>Mitsubishi</Brand_name>
+				<Model>Mirage</Model>
+			</Brand>
+			<Manufacturer_info>
+			Mitsubishi Motors Corporation is a Japanese multinational automotive manufacturer 
+			headquartered in Minato, Tokyo, Japan. In 2011, Mitsubishi Motors was the sixth-largest 
+			Japanese automaker and the nineteenth-largest worldwide by production.
+			</Manufacturer_info>
+			
+			<Description>
+			The Mitsubishi Mirage is inexpensive, and it will get you
+			from point A to point B. Refinement, power, technology, 
+			quality, attention to detail, and value are all lacking.
+			</Description>
+			
+			<Car_type>hatchback</Car_type>
+			
+			<Color finishes="Glossy">red</Color>
+			
+			<Quantity>4</Quantity>
+			
+			<Variant option="Full option"/>
+			
+			<Price payment_method="cash">67000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="4453">
+			<Brand>
+				<Brand_name>Toyota</Brand_name>
+				<Model>Camry</Model>
+			</Brand>
+			<Manufacturer_info>
+			Toyota Motor Corporation is a Japanese multinational automotive manufacturer 
+			headquartered in Toyota, Aichi, Japan.
+			</Manufacturer_info>
+			
+			<Description>
+			The 2020 Toyota Camry provides the basic qualities you expect 
+			from this popular sedan: a roomy cabin, plenty of trunk space, a
+			comfortable ride and high crash test safety scores.
+			</Description>
+			
+			<Car_type>sedan</Car_type>
+			
+			<Color>grey</Color>
+			
+			<Quantity>3</Quantity>
+			
+			<Variant option="No option"/>
+			
+			<Price payment_method="cash">57000</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="7753">
+			<Brand>
+				<Brand_name>Mitsubishi</Brand_name>
+				<Model>Outlander</Model>
+			</Brand>
+			<Manufacturer_info>
+			Mitsubishi Motors Corporation is a Japanese multinational automotive manufacturer 
+			headquartered in Minato, Tokyo, Japan. In 2011, Mitsubishi Motors was the sixth-largest 
+			Japanese automaker and the nineteenth-largest worldwide by production.
+			</Manufacturer_info>
+			
+			<Description>
+			The Mitsubishi Outlander is roomy and straightforward, with some good tech features 
+			and the option to add some basic all-terrain capability. There are definite 
+			shortcomings, though, including an unrefined driving experience and subpar build quality.
+			</Description>
+			
+			<Car_type>SUV</Car_type>
+			
+			<Color finishes="Glossy">red</Color>
+			
+			<Quantity>2</Quantity>
+			
+			<Variant option="Full option"/>
+			
+			<Price payment_method="credit card">57559</Price>
+		</Vehicle>
+		
+		<Vehicle product_ID="9186">
+		<Brand>
+			<Brand_name>Hyundai</Brand_name>
+			<Model>Santa Fe</Model>
+		</Brand>
+		<Manufacturer_info>
+		The Hyundai Motor Company, commonly known as Hyundai Motors, is
+		a South Korean multinational automotive manufacturer headquartered in Seoul.
+		</Manufacturer_info>
+		
+		<Description>
+		Fresh from a redesign of last year's model, the 2020 Hyundai Santa Fe 
+		carries into the new model year with no significant changes.
+		</Description>
+		
+		<Car_type>SUV</Car_type>
+		
+		<Color>black</Color>
+		
+		<Quantity>4</Quantity>
+		
+		<Variant option="Half option"/>
+		
+		<Price payment_method="cash">157000</Price>
+	</Vehicle>
+	</products>
+</Vehicles>

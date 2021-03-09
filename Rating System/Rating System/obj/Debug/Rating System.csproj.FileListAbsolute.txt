@@ -1,0 +1,13 @@
+C:\Users\shasank\source\repos\Rating System\Rating System\bin\Debug\Rating System.exe.config
+C:\Users\shasank\source\repos\Rating System\Rating System\bin\Debug\Rating System.exe
+C:\Users\shasank\source\repos\Rating System\Rating System\bin\Debug\Rating System.pdb
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating System.csprojAssemblyReference.cache
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating_System.Properties.Resources.resources
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating System.csproj.GenerateResource.cache
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating System.csproj.CoreCompileInputs.cache
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating System.exe
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating System.pdb
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating_System.userRating.resources
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating_System.Home.resources
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating_System.AdminLogin.resources
+C:\Users\shasank\source\repos\Rating System\Rating System\obj\Debug\Rating_System.AdminPanel.resources
